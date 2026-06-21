@@ -12,28 +12,28 @@
     /* 标签栏样式 */
     .tab-bar { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; }
     .tab-btn { 
-        
-      背景: #fff; 光标: 指针; 过渡: 所有 0.3秒;background: #fff; cursor: pointer; transition: all 0.3s;
-    }}
-    .tab-btn.active { background: #007bff; color: white; border-color: #007bff; }tab-btn.active { background: #007bff; color: white; border-color: #007bff; }
-    .tab-btn.bold-tab { font-weight: bold; } /* 特定分类加粗 */tab-btn.bold-tab { font-weight: bold; } /* 特定分类加粗 */
+      padding: 8px 16px; border: 1px solid #ddd; border-radius: 4px; 
+      background: #fff; cursor: pointer; transition: all 0.3s;
+    }
+    .tab-btn.active { background: #007bff; color: white; border-color: #007bff; }
+    .tab-btn.bold-tab { font-weight: bold; } /* 特定分类加粗 */
 
-    /* 内容区域样式 *//* 内容区域样式 */
-    .content { display: none; }content { display: none; }
-    .content.active { display: block; }content.active { display: block; }
-    .副标题 {sub-title { 
-      显示: 弹性布局; 项目对齐方式: 两端对齐;display: flex; justify-content: space-between; 
-      填充: 10px; 背景: #f8f9fa; 边框半径: 4px 4px 0 0;padding: 10px; background: #f8f9fa; border-radius: 4px 4px 0 0;
-      字体加粗；下边距：10px；font-weight: bold; margin-bottom: 10px;
-    }}
-    .sub-title span { flex: 1; text-align: center; }sub-title span { flex: 1; text-align: center; }
-    .list-wrapper { margin-bottom: 15px; }list-wrapper { margin-bottom: 15px; }
-    列表项 {list-item { 
-      显示: 弹性布局; 项目对齐方式: 两端对齐;display: flex; justify-content: space-between; 
-      填充：8px；底部边框：1px实线 #eee；padding: 8px; border-bottom: 1px solid #eee;
-    }}
-    .list-item span { flex:1; text-align:center; word-break: break-word; }list-item span { flex:1; text-align:center; word-break: break-word; }
-    .list-item a { color: #007bff; text-decoration: none; }list-item a { color: #007bff; text-decoration: none; }
+    /* 内容区域样式 */
+    .content { display: none; }
+    .content.active { display: block; }
+    .sub-title { 
+      display: flex; justify-content: space-between; 
+      padding: 10px; background: #f8f9fa; border-radius: 4px 4px 0 0;
+      font-weight: bold; margin-bottom: 10px;
+    }
+    .sub-title span { flex: 1; text-align: center; }
+    .list-wrapper { margin-bottom: 15px; }
+    .list-item { 
+      display: flex; justify-content: space-between; 
+      padding: 8px; border-bottom: 1px solid #eee;
+    }
+    .list-item span { flex:1; text-align:center; word-break: break-word; }
+    .list-item a { color: #007bff; text-decoration: none; }
 
     /* 分页样式 */
     .pagination { text-align: center; margin-top: 15px; }
