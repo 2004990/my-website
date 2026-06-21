@@ -1,0 +1,47 @@
+﻿{
+    "siteName": "星辰科技",
+    "nav": {
+        "logo": "🌟 星辰科技",
+        "links": [
+            { "label": "首页", "href": "#hero" },
+            { "label": "产品", "href": "#products" },
+            { "label": "关于", "href": "#about" },
+            { "label": "联系", "href": "#footer" }
+        ]
+    },
+    "hero": {
+        "title": "让科技点亮未来",
+        "subtitle": "我们致力于为企业提供创新的数字化解决方案，助力业务增长与转型。",
+        "buttonText": "了解更多",
+        "buttonLink": "#products"
+    },
+    "products": {
+        "title": "我们的产品",
+        "items": [
+            {
+                "name": "智能数据分析平台",
+                "description": "基于AI的数据可视化工具，帮助您快速洞察业务趋势。",
+                "image": "https://picsum.photos/seed/analytics/600/400"
+            },
+            {
+                "name": "云端协作套件",
+                "description": "安全高效的团队协作工具，随时随地保持连接。",
+                "image": "https://picsum.photos/seed/cloud/600/400"
+            },
+            {
+                "name": "物联网管理后台",
+                "description": "一站式设备管理与监控，让物联网部署更简单。",
+                "image": "https://picsum.photos/seed/iot/600/400"
+            }
+        ]
+    },
+    "about": {
+        "title": "关于我们",
+        "content": "星辰科技成立于2020年，是一家专注于企业数字化解决方案的科技公司。我们拥有超过100人的技术团队，已服务超过500家企业客户。我们相信，技术的力量可以让世界变得更美好。"
+    },
+    "footer": {
+        "copyright": "© 2026 星辰科技. All rights reserved.",
+        "email": "contact@startech.com",
+        "phone": "400-888-9999"
+    }
+}
