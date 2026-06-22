@@ -112,7 +112,7 @@
         ...Array(8).fill(0).map((_,i)=>({name:`业绩文档${i+3}`,time:`2026-02-${28-i}`,link:`#perf${i+3}`}))
       ],
       daily: [
-       { name: "上市公司大全", time: "2026-06-22", link: "https://raw.githubusercontent.com/2004990/my-website/refs/heads/main/%E4%B8%8A%E5%B8%82%E5%85%AC%E5%8F%B8%E5%A4%A7%E5%85%A8.xlsx" },
+      { name: "上市公司大全", time: "2026-06-22", link: "https://raw.githubusercontent.com/2004990/my-website/refs/heads/main/%E4%B8%8A%E5%B8%82%E5%85%AC%E5%8F%B8%E5%A4%A7%E5%85%A8.xlsx" },
         { name: "日常工作会议纪要", time: "2026-06-10", link: "#meeting1" },
         { name: "周报提交通知", time: "2026-06-08", link: "#notice1" },
         ...Array(12).fill(0).map((_,i)=>({name:`日常文档${i+3}`,time:`2026-06-${7-i}`,link:`#daily${i+3}`}))
@@ -138,7 +138,7 @@
         listItem.innerHTML = `
           <span>${item.name}</span>
           <span>${item.time}</span>
-          <span><a href=" ">查看详情</a ></span>
+          <span><a href="${item.link}  download">查看详情</a ></span>
         `;
         listWrapper.appendChild(listItem);
       });
