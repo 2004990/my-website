@@ -135,11 +135,11 @@
       data[targetId].forEach(item => {
         const listItem = document.createElement("div");
         listItem.className = "list-item";
-        listItem.innerHTML = `
-          <span>${item.name}</span>
-          <span>${item.time}</span>
-          <span><a href="${item.link}  download">查看详情</a ></span>
-        `;
+       listItem.innerHTML = `
+  <span>${item.name}</span>
+  <span>${item.time}</span>
+  <span><a href="${item.link}" download>查看详情</span>
+`;
         listWrapper.appendChild(listItem);
       });
     }
